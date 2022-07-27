@@ -175,7 +175,7 @@ class DetailedPlayer extends StatelessWidget {
                   IconButton(
                       icon: Icon(Icons.fullscreen),
                       onPressed: () {
-                        controller.animateToHeight(state: PanelState.MAX);
+                        controller.animateToHeight(state: PanelState.max);
                       }),
                   Padding(
                     padding: const EdgeInsets.only(right: 3),
